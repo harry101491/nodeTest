@@ -22,7 +22,7 @@
 // console.log("Inside the App.js file");
 // console.log(os.userInfo());
 
-const _ = require("lodash");
+// const _ = require("lodash");
 
 // _.forEach([1, 2, 3, 4], (ele) => {
 //     console.log("The element is: "+ ele);
@@ -31,4 +31,18 @@ const _ = require("lodash");
 // console.log(_.isString(true));
 // console.log(_.isString("Harshit"));
 
-console.log(_.uniq([ 1, 1, "Harshit", "Harshit", 2, 6, 6 ]));
+// console.log(_.uniq([ 1, 1, "Harshit", "Harshit", 2, 6, 6 ]));
+
+// console.log(process.argv);
+
+const command = process.argv[2];
+
+if(command === "add") {
+    console.log("User wants add command");
+}
+else if(command === "list") {
+    console.log("User wants list command");
+}
+else {
+    console.log("Command is empty");
+}
