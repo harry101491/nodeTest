@@ -1,3 +1,15 @@
+/**
+ * reduce functionality in the array
+ */
+
+// const array1 = [1,2,3,4];
+// const reducer = (accumulator, currentValue) => accumulator + currentValue;
+// console.log("the the function value is: ", array1.map((value) => {
+//     return value + 1;
+// }));
+
+// console.log("Harshit Pareek");
+
 // ES 6 and 7 features
 // const filter = (...args) => {
 //     return args.filter(el => el === 1);
@@ -35,14 +47,14 @@
 
 // console.log(process.argv);
 
-const command = process.argv[2];
+// const command = process.argv[2];
 
-if(command === "add") {
-    console.log("User wants add command");
-}
-else if(command === "list") {
-    console.log("User wants list command");
-}
-else {
-    console.log("Command is empty");
-}
+// if(command === "add") {
+//     console.log("User wants add command");
+// }
+// else if(command === "list") {
+//     console.log("User wants list command");
+// }
+// else {
+//     console.log("Command is empty");
+// }
